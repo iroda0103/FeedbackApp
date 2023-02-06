@@ -1,0 +1,53 @@
+.app{
+    max-width: 730px;
+    width: 100%;
+    /* margin: 0 auto; */
+    padding-top: 60px;
+    /* margin: 0 280px; */
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.editbtn{
+    padding: 12px 24.5px;
+    background: #4661E6;
+border-radius: 10px;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+color: #F2F4FE;
+margin-bottom: 24px;
+}
+.back{
+    font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+text-decoration: none;
+color: #647196;
+}
+.pathImg{
+    margin-right: 15px;
+    margin-left: 3px;
+}
+.hr{
+    background: #8C92B3;
+mix-blend-mode: normal;
+opacity: 0.25;
+width: 100%;
+margin: 32px 0;
+}
+.commitBody {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px 32px;
+}
+.messageCount {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #3A4374;
+    margin-bottom: 28px;
+}

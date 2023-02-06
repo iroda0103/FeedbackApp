@@ -1,0 +1,23 @@
+.badgementors{
+    background: #F2F4FF;
+border-radius: 10px;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+color: #4661E6;font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+color: #4661E6;
+padding: 6px 16px;
+}
+.badgeAll{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+}
+.badgementor{
+    background: #FFFFFF;
+border-radius: 10px;
+margin-top: 24px;
+padding: 24px;
+}

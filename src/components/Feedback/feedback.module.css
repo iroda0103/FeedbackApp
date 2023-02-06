@@ -1,0 +1,59 @@
+.feedback {
+  position: relative;
+  margin: 5px;
+  display: flex;
+  gap: 40px;
+  padding: 28px 32px;
+  background: #FFFFFF;
+border-radius: 10px;
+}
+.feedbacknumber{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.180556px;
+  color: #3A4374;
+}
+.votes{
+  background: #F2F4FE;
+border-radius: 10px;
+width: 40px;
+height: 53px;
+display: flex;
+flex-direction: column;
+padding: 8px 9px;
+}
+.title{
+  font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.25px;
+color: #3A4374;
+}
+.description{
+  margin-top: 4px;
+  margin-bottom: 12px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #647196;
+}
+.messageBlok{
+  position: absolute;
+  right: 32px;
+  display: flex;
+  gap: 8px;
+}
+.message{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+}

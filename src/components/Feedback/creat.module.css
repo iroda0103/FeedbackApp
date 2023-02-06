@@ -1,0 +1,114 @@
+.creat {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    padding: 13px 24px;
+    border-radius: 4px;
+    border: 0px solid #ccc;
+    margin: 4px;
+    margin-bottom: 24px;
+    max-width: 456px;
+    width: 100%;
+    background: #F7F8FD;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3A4374;
+}
+.none{
+    display: none;
+}
+textarea {
+    height: 96px;
+}
+
+form {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 52px 32px 40px 42px;
+    text-align: left;
+}
+.formHeader{
+    font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+
+letter-spacing: -0.333333px;
+
+color: #3A4374;
+margin-bottom: 40px;
+}
+.plus{
+    background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    top: -28px;
+    left: 42px;
+}
+.plus::before{
+    content: url("../../img/+.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.194444px;
+    color: #3A4374;
+}
+
+.labelParagraph {
+    margin: 2px 0 16px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #647196;
+}
+
+.back {
+    margin-bottom: 56px;
+    margin-top: 42px;
+    display: flex;
+    gap: 16px;
+    font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+width: 456px;
+color: #647196;
+text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.pathImg{
+    margin-right: 16px;
+}
+.cancel {
+    background: #3A4374;
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F2F4FE;
+    gap: 16px;
+}

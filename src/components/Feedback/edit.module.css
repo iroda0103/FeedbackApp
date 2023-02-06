@@ -1,0 +1,14 @@
+.del {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete {
+    background: #D73737;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F2F4FE;
+    padding: 12px 24px;
+}

@@ -1,0 +1,52 @@
+.view{
+    font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+text-decoration-line: underline;
+color: #4661E6;
+
+}
+.RoadmapHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.planned{
+    position: relative;
+    font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #647196;
+margin-left: 24px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    &:nth-child(2){
+        .planned::before{
+        background: #AD1FEA;
+        }
+    }
+     &:nth-child(3){
+        .planned::before{
+        background: #62BCFA;
+        }
+    }
+}
+.planned::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #F49F85;
+    position:absolute;
+    left: -24px;
+    top: 8px;
+}
+.planNumber{
+    font-weight: 700;
+font-size: 16px;
+line-height: 23px;
+color: #647196;
+
+}
